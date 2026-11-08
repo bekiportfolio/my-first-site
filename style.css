@@ -1,0 +1,35 @@
+ body{
+            background-color: #1e1e2e;
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        h2 {
+            color: pink;
+        }
+        p{ 
+            font-size: 20px;
+        }
+        li {
+            font-size: 20px;
+            color: rgb(18, 210, 18);
+        }
+        a { 
+            color: orange;
+        }
+        .muhim { 
+            color: orange ;
+            font-weight: bold;
+        }
+        .karta{
+            background-color: #2a2a40;
+            padding: 60px;
+            border: 2px solid orange;
+            margin: 30px;
+            border-radius:12px;
+            text-align: center;
+
+        }
