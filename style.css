@@ -39,3 +39,32 @@
             font-weight: bold;
             font-style: inherit;
         }
+        .box{
+            background-color:dimgray;
+            padding: 50px;
+            border:solid red ;
+            margin: 30px;
+            text-align: center;
+            border-radius: 14px;     
+        }
+        .bir{
+            color: #1e2a90;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .ikki{
+            color: brown;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .uch{
+            color:crimson;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .haqimda{
+            background-color: darkgrey;
+        }
+        .link1{
+            color: #1e2a90;
+        }
+        .link2{
+            color:crimson;
+        }
