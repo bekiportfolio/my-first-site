@@ -4,7 +4,7 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         h1 {
-            color: orange ;
+            color: orange;
             text-align: center;
         }
         h2 {
@@ -32,4 +32,10 @@
             border-radius:12px;
             text-align: center;
 
+        }
+        .ozgarish{
+            color:rgb(18, 210, 18);
+            font-size: 17px;
+            font-weight: bold;
+            font-style: inherit;
         }
