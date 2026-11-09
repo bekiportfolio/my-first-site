@@ -68,3 +68,8 @@
         .link2{
             color:crimson;
         }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            
+        }
