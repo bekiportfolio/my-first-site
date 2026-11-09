@@ -28,9 +28,9 @@
             background-color: #2a2a40;
             padding: 60px;
             border: 2px solid orange;
-            margin: 30px;
             border-radius:12px;
             text-align: center;
+            width: 300px;
 
         }
         .ozgarish{
@@ -41,9 +41,9 @@
         }
         .box{
             background-color:dimgray;
+            width: 300px;
             padding: 50px;
             border:solid red ;
-            margin: 30px;
             text-align: center;
             border-radius: 14px;     
         }
@@ -71,5 +71,7 @@
         .cards{
             display: flex;
             flex-direction: row;
-            
+            flex-wrap: wrap;
+            gap: 20px;
         }
+  
