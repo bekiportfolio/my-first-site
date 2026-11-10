@@ -68,17 +68,15 @@
         .link2{
             color:crimson;
         }
-        .cards{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 20px;
+        a{
+            display: block;
+            margin: 10px;
         }
         @media (max-width: 600px) {
-            .body{
-                background-color: lightyellow;
-            }
             .cards{
+                flex-direction: column;
+            }
+            .karta, .box  {
                 width: 100%;
             }
         }
