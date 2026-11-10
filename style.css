@@ -74,17 +74,11 @@
             flex-wrap: wrap;
             gap: 20px;
         }
-        @media (max-width: 600px){
+        @media (max-width: 600px) {
             .body{
                 background-color: lightyellow;
             }
             .cards{
                 width: 100%;
             }
-            
         }
-   a {
-    display: block;
-    margin: 10px;
-   }
-  
