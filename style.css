@@ -26,11 +26,12 @@
         }
         .karta{
             background-color: #2a2a40;
+            margin: 30px;
             padding: 60px;
             border: 2px solid orange;
             border-radius:12px;
             text-align: center;
-            width: 300px;
+            width: 270px;
 
         }
         .ozgarish{
@@ -41,7 +42,8 @@
         }
         .box{
             background-color:dimgray;
-            width: 300px;
+            margin-left: 30px;
+            width: 270px;
             padding: 50px;
             border:solid red ;
             text-align: center;
@@ -72,11 +74,13 @@
             display: block;
             margin: 10px;
         }
-        @media (max-width: 600px) {
+        .cards{
+            display: flex;
+            flex-direction: row;
+        }      
+          @media (max-width : 600px){
             .cards{
+                display: flex;
                 flex-direction: column;
-            }
-            .karta, .box  {
-                width: 100%;
             }
         }
